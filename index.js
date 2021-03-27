@@ -56,7 +56,7 @@ mongodb.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, (err, 
 
   const port = 3001;
   app.listen(port, () => {
-    console.log(`Listening at port ${port}`);
+    console.log(`Listening at port: ${port}`);
   });
 
 });
